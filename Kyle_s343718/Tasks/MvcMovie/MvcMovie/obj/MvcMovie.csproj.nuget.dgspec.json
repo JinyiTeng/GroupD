@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/MvcMovie.csproj": {}
+    "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Tasks/MvcMovie/MvcMovie/MvcMovie.csproj": {}
   },
   "projects": {
-    "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/MvcMovie.csproj": {
+    "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Tasks/MvcMovie/MvcMovie/MvcMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/MvcMovie.csproj",
+        "projectUniqueName": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Tasks/MvcMovie/MvcMovie/MvcMovie.csproj",
         "projectName": "MvcMovie",
-        "projectPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/MvcMovie.csproj",
+        "projectPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Tasks/MvcMovie/MvcMovie/MvcMovie.csproj",
         "packagesPath": "/Users/khaithan1105/.nuget/packages/",
-        "outputPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/obj/",
+        "outputPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Tasks/MvcMovie/MvcMovie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khaithan1105/.nuget/NuGet/NuGet.Config"
