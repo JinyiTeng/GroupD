@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0yDUCfqTZWAIv1FCRrdT3zMN6O+IXNGDBg3RKR6F23CcdOOCUTX9YZzF3INkrNtrfEoDRg4ZlKSxknv5m1YMOA==",
+  "success": true,
+  "projectFilePath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/MvcMovie.csproj",
+  "expectedPackageFiles": [
+    "/Users/khaithan1105/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/khaithan1105/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.28/microsoft.netcore.app.host.osx-x64.3.1.28.nupkg.sha512",
+    "/Users/khaithan1105/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
