@@ -34,3 +34,4 @@
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.pdb
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.genruntimeconfig.cache
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/MvcMovie.csproj.CopyComplete
+/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/Kyle_s343718/Week1/MvcMovie/MvcMovie/obj/Debug/netcoreapp3.1/Razor/Views/HelloWorld/Index.cshtml.g.cs
