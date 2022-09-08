@@ -1,0 +1,138 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Salam, universe!</h1>
+
+Welcome to your new blazor app.
+<br/><br/>
+<p>
+    Name: @person.SalesPerson
+</p>
+<p>
+    Amount: @person.Amount.ToString("c")
+</p>
+<p>
+    <input type="number"
+        @bind-value="person.Amount"
+        @bind-value:event="oninput" />
+</p>
+<p>
+    <label><input type="checkbox"
+        @bind-value="person.isActive" />
+        &nbsp;Is Active
+    </label>
+    <br/>
+    Is Active: @person.isActive
+</p>
+<p>
+    <label>
+        <input type="radio"
+            value= "1"
+            name="group"
+            checked="@(selectedGroup ==1)"
+            @onclick="@(()=>selectedGroup = 1)"/>1
+            
+    </label>
+</p>
+<p>
+    <label>
+        <input type="radio"
+               value="2"
+               checked="@(selectedGroup == 2)"
+               @onclick="@(()=>selectedGroup = 2)"/>2
+    </label>
+    <br/>
+    @selectedGroup
+</p>
+<p>
+    <select @bind="selectedLocationId">
+        <option value="0"></option>
+        @foreach (var loc in person.Locations)
+        {
+            <option value="@loc.ID">@loc.City
+            </option>
+        }
+    </select>
+    <br/>
+    @selectedLocationId
+</p>
+<p>
+    <ul>
+        @foreach(var loc in person.Locations)
+        {
+            <li>@loc.City, @loc.ProvState,@loc.Country</li>
+        }
+    </ul>
+
+</p>
+<p>
+    <table class="table">
+        @foreach(var loc in person.Locations)
+        {
+            <tr>
+                <td>@loc.ID</td>
+                <td>
+                    <input type="text"
+                    class="form-control"
+                    @bind-value="@loc.City"
+                    @bind-value:event="oninput"/>
+                </td>
+                <td>
+                    <input type="text"
+                       class="form-control"
+                       @bind-value="@loc.ProvState"
+                       @bind-value:event="oninput" />
+                </td>
+                <td>
+                    <input type="text"
+                       class="form-control"
+                       @bind-value="@loc.Country"
+                       @bind-value:event="oninput" />
+                </td>
+                <td>@loc.ProvState</td>
+                <td>@loc.Country</td>
+            </tr>
+        }
+    </table>
+</p>
+
+@code {
+    IndexViewModel person = null;
+    int selectedGroup = 1;
+    int selectedLocationId = 0;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        person = new IndexViewModel
+            {
+                SalesPerson = "Nazmul",
+                Amount = 15000,
+                Locations = new List<Location> {
+                new Location {ID=1, City = "Dhaka", ProvState="OldDhaka", Country="Bangladesh" },
+                new Location {ID=2, City = "Darwin", ProvState="NT", Country="Australia"} }
+
+            };
+
+    }
+
+    #region "View Model"
+
+    class IndexViewModel
+    {
+        public string SalesPerson { get; set; }
+        public double Amount { get; set; }
+        public bool isActive { get; set; }
+        public List<Location> Locations;
+    }
+    class Location
+    {
+        public int ID { get; set; }
+        public string City { get; set; }
+        public string ProvState { get; set; }
+        public string Country { get; set; }
+    }
+
+    #endregion
+}
