@@ -16,6 +16,6 @@ namespace _2DataAccessLayer.Interfaces
         // Actions
         int CreateEmployee(EmployeeModel Employee);
         void UpdateEmployee(EmployeeModel Employee);
-        void DeleteEmployee(int EmployeeId);
+        void DeleteEmployee(int MovieId);
     }
 }

@@ -4,24 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2DataAccessLayer.Context.Models
+namespace _1CommonInfrastructure.Models
 {
-    public class Movie
+    public class MovieModel
     {
-        public int MovieId { get; set; } // int
-        /// <summary>
-        /// 电影名称
-        /// </summary>
-        public string MovieName { get; set; } // nvarchar(400)
-        /// <summary>
-        /// 导演
-        /// </summary>
+        public int MovieId { get; set; }
+        public string MovieName { get; set; }
         public string Director { set; get; }
         /// <summary>
         /// 上映日期
         /// </summary>
         public DateTime ReleaseDate { set; get; }
-
         /// <summary>
         /// 简介
         /// </summary>
