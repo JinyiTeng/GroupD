@@ -1,0 +1,27 @@
+<div class="container my-5">
+    <h1 class ="mb-3">Members</h1>
+
+    <table class="table" *ngIf="members && members.length > 0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Team</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let member of members">
+                <td>{{ member.id }}</td>
+                <td>{{ member.name }}</td>
+                <td>{{ member.email }}</td>
+                <td>{{ member.phone }}</td>
+                <td>{{ member.team }}</td>
+                <td>{{ member.position }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <p *ngIf="!members || members.length <= 0">No members found!</p>
+</div>
