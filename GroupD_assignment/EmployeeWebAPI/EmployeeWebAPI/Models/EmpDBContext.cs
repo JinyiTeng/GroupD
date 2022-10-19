@@ -4,7 +4,7 @@ namespace EmployeeWebAPI.Models
 {
     public class EmpDBContext : DbContext
     {
-        public EmpDBContext(DbContextOptions<Empdbcontext> options)
+        public EmpDBContext(DbContextOptions options)
         : base(options)
         {
 
