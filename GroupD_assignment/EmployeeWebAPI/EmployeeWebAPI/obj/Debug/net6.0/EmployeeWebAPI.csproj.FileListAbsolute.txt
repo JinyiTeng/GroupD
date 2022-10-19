@@ -58,3 +58,5 @@ C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\Employee
 C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net6.0\EmployeeWebAPI.pdb
 C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net6.0\EmployeeWebAPI.genruntimeconfig.cache
 C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net6.0\ref\EmployeeWebAPI.dll
+C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\EmployeeWebAPI\EmployeeWebAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Linh\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\EmployeeWebAPI\EmployeeWebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
