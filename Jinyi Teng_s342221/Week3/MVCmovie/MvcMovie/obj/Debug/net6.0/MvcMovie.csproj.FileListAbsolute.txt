@@ -1,0 +1,52 @@
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\appsettings.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.staticwebassets.runtime.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.exe
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.deps.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.runtimeconfig.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.dll
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\bin\Debug\net6.0\MvcMovie.pdb
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.AssemblyReference.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfo.cs
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cs
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\scopedcss\bundle\MvcMovie.styles.css
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.dll
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\refint\MvcMovie.dll
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.pdb
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\MvcMovie.genruntimeconfig.cache
+C:\Users\Ashish Gadhiya\source\repos\MvcMovie\MvcMovie\obj\Debug\net6.0\ref\MvcMovie.dll
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\appsettings.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.staticwebassets.runtime.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.exe
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.deps.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.runtimeconfig.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.dll
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\bin\Debug\net6.0\MvcMovie.pdb
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.AssemblyReference.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfoInputs.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.AssemblyInfo.cs
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.csproj.CoreCompileInputs.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.RazorAssemblyInfo.cs
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\scopedcss\bundle\MvcMovie.styles.css
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.dll
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\refint\MvcMovie.dll
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.pdb
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\MvcMovie.genruntimeconfig.cache
+C:\Users\jinyi\PRT585_TEAM_A\Ashish_Gadhiya_S349167\Week_2\MVCmovie\MvcMovie\obj\Debug\net6.0\ref\MvcMovie.dll
