@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jinyi\\PRT585_GroupD old\\Jinyi Teng_s342221\\Week3\\MVCmovie\\MvcMovie\\MvcMovie.csproj",
-      "projectName": "MvcMovie",
-      "projectPath": "C:\\Users\\jinyi\\PRT585_GroupD old\\Jinyi Teng_s342221\\Week3\\MVCmovie\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "C:\\Users\\jinyi\\source\\repos\\HelloWorldBlazorApp\\HelloWorldBlazorApp\\HelloWorldBlazorApp.csproj",
+      "projectName": "HelloWorldBlazorApp",
+      "projectPath": "C:\\Users\\jinyi\\source\\repos\\HelloWorldBlazorApp\\HelloWorldBlazorApp\\HelloWorldBlazorApp.csproj",
       "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jinyi\\PRT585_GroupD old\\Jinyi Teng_s342221\\Week3\\MVCmovie\\MvcMovie\\obj\\",
+      "outputPath": "C:\\Users\\jinyi\\source\\repos\\HelloWorldBlazorApp\\HelloWorldBlazorApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
