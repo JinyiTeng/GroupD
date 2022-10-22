@@ -86,6 +86,35 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("People");
                 });
 
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Staff", b =>
+                {
+                    b.Property<int>("StaffId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StaffId"), 1L, 1);
+
+                    b.Property<string>("StaffName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StaffPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StaffPosition")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StaffShift")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("StaffId");
+
+                    b.ToTable("Staffs");
+                });
+
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Student", b =>
                 {
                     b.Property<int>("StudentId")
