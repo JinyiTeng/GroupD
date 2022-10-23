@@ -1,1 +1,27 @@
-<p>staffs-list works!</p>
+<div class="container my-5">
+    <h1 class="mb-3">Staffs</h1>
+
+    <table class ="table" *ngIf="staffs && staffs.length >0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Staff Name</th>
+                <th>Phone</th>
+                <th>Position</th>
+                <th>Shift</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr *ngFor="let staff of staffs">
+                <td>{{staff.staffId}}</td>
+                <td>{{staff.staffName}}</td>
+                <td>{{staff.staffPhone}}</td>
+                <td>{{staff.staffPosition}}</td>
+                <td>{{staff.staffShift}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <p *ngIf="!staffs || staffs.length <= 0">No staff found!</p>
+</div>
