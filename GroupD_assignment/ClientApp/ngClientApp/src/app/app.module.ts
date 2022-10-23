@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PersonComponent } from './person/person.component';
+import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PersonComponent
+    PersonComponent,
+    StaffsListComponent
   ],
   imports: [
     BrowserModule,

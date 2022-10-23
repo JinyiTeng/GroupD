@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Linh\\.nuget\\packages\\": {}
+    "/Users/khaithan1105/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Linh\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj",
+      "projectUniqueName": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/1CommonInfrastructure.csproj",
       "projectName": "1CommonInfrastructure",
-      "projectPath": "C:\\Users\\Linh\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj",
-      "packagesPath": "C:\\Users\\Linh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Linh\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\obj\\",
+      "projectPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/1CommonInfrastructure.csproj",
+      "packagesPath": "/Users/khaithan1105/.nuget/packages/",
+      "outputPath": "/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Linh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/khaithan1105/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
