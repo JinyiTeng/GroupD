@@ -22,7 +22,9 @@ namespace _2DataAccessLayer.Context
 
         public DbSet<Employee> Employees { get; set; }
 
-        public DbSet<Staff> Staffs { get; set; }
+        public DbSet<Staff> Staff { get; set; }
+        public DbSet<Stock> Stock { get; set; }
+        public DbSet<ProductLoss> ProductLoss { get; set; }
         //public DbSet<Category> Categories { get; set; }
     }
 

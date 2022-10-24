@@ -86,6 +86,30 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("People");
                 });
 
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.ProductLoss", b =>
+                {
+                    b.Property<int>("ProductLossID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductLossID"), 1L, 1);
+
+                    b.Property<int>("LossAmount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Reason")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ProductLossID");
+
+                    b.ToTable("ProductLoss");
+                });
+
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Staff", b =>
                 {
                     b.Property<int>("StaffId")
@@ -112,7 +136,30 @@ namespace _2DataAccessLayer.Migrations
 
                     b.HasKey("StaffId");
 
-                    b.ToTable("Staffs");
+                    b.ToTable("Staff");
+                });
+
+            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Stock", b =>
+                {
+                    b.Property<int>("StockID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StockID"), 1L, 1);
+
+                    b.Property<int>("OrderAmount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("TotalOrderPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("StockID");
+
+                    b.ToTable("Stock");
                 });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Student", b =>

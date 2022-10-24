@@ -23,7 +23,7 @@ namespace _2DataAccessLayer.Services
 
         public List<StaffModel> GetAll()
         {
-            var result = _db.Staffs.ToList();
+            var result = _db.Staff.ToList();
 
             var returnObject = new List<StaffModel>();
             foreach (var item in result)
@@ -36,7 +36,7 @@ namespace _2DataAccessLayer.Services
 
         public StaffModel? GetById(int StaffId)
         {
-            var result = _db.Staffs.SingleOrDefault(x => x.StaffId == StaffId);
+            var result = _db.Staff.SingleOrDefault(x => x.StaffId == StaffId);
             return result?.ToStaffModel();
         }
 
@@ -44,7 +44,7 @@ namespace _2DataAccessLayer.Services
         public int CreateStaff(StaffModel Staff)
         {
             var newStaff = Staff.ToStaff();
-            _db.Staffs.Add(newStaff);
+            _db.Staff.Add(newStaff);
             _db.SaveChanges();
             return newStaff.StaffId;
         }
@@ -52,7 +52,7 @@ namespace _2DataAccessLayer.Services
 
         public void UpdateStaff(StaffModel Staff)
         {
-            var existingStaff = _db.Staffs
+            var existingStaff = _db.Staff
                 .SingleOrDefault(x => x.StaffId == Staff.StaffId);
 
             if (existingStaff == null)
@@ -67,8 +67,8 @@ namespace _2DataAccessLayer.Services
 
         public void DeleteStaff(int StaffId)
         {
-            var efModel = _db.Staffs.Find(StaffId);
-            _db.Staffs.Remove(efModel);
+            var efModel = _db.Staff.Find(StaffId);
+            _db.Staff.Remove(efModel);
             _db.SaveChanges();
 
 
