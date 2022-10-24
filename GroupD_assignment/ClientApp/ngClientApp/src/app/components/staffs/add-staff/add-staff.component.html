@@ -1,21 +1,56 @@
+<style>
+    .center {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      border: 3px solid burlywood;
+    }
+    .center1 {
+  text-align: center;
+  
+}
+</style>
 <div class="container my-5">
-    <h1 class="mb-3">Add New Staff</h1>
-    <form>
-        <div class="mb-3">
-          <label for="staffName" class="form-label">Staff Name</label>
-          <input type="text" class="form-control" id="staffName" placeholder="John Doe">
-          
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Staff Phone</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
 
+    <div class="row">
+        <h1 class="center1">Add New Staff</h1>
+        <div class="center">
+            
+            <form class="row g-3" #form="ngForm" (ngSubmit)="addStaff()">
+                <div class="mb-3">
+                    <label for="staffName" class="form-label">Staff Name</label>
+                    <input type="text" class="form-control" id="staffName" placeholder="John Doe" 
+                    name="staffName" [(ngModel)] = "addStaffRequest.staffName">
+                  
+                </div>
+                <div class="mb-3">
+                    <label for="staffPhone" class="form-label">Staff Phone</label>
+                    <input type="text" class="form-control" id="staffPhone" placeholder="12345678"
+                    name="staffPhone" [(ngModel)] = "addStaffRequest.staffPhone">
+                </div>
+                <div class="col-md-6">
+                    <label for="staffPosition" class="form-label">Staff Position</label>
+                    <input type="text" class="form-control" id="staffPosition" placeholder="Sale"
+                    name="staffName" [(ngModel)] = "addStaffRequest.staffPosition">
+                </div>
+                <div class="col-md-6">
+                <label for="staffShift" class="form-label">Shift</label>
+                <select id="staffShift" class="form-select"
+                name="staffShift" [(ngModel)] = "addStaffRequest.staffShift">
+                    <option selected>Choose...</option>
+                    <option>Morning</option>
+                    <option>Noon</option>
+                    <option>Night</option>
+                </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="float:right">Submit</button>
+                </div>
+                
+              </form>
+        
+        </div>
+    </div>
+   
 
 </div>

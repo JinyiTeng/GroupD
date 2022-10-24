@@ -16,4 +16,8 @@ export class StaffsService {
   getAllStaffs(): Observable<Staff[]> {
     return this.http.get<Staff[]>(this.baseApiUrl + '/api/Staff');
   }
+
+  addStaff(addStaffRequest: Staff): Observable<Staff> {
+    return this.http.post<Staff>(this.baseApiUrl + '/api/Staff',addStaffRequest);
+  }
 }

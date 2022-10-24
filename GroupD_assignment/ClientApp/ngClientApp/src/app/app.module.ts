@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PersonComponent } from './person/person.component';
 import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AddStaffComponent } from './components/staffs/add-staff/add-staff.compo
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
