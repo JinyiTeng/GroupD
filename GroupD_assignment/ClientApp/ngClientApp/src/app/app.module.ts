@@ -9,13 +9,15 @@ import { PersonComponent } from './person/person.component';
 import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
 import { FormsModule } from '@angular/forms';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonComponent,
     StaffsListComponent,
-    AddStaffComponent
+    AddStaffComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
