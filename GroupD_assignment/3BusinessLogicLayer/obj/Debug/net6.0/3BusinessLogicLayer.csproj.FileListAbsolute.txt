@@ -32,6 +32,7 @@ C:/Users/Linh/OneDrive/Documents/GitHub/PRT585_GroupD/GroupD_assignment/3Busines
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/3BusinessLogicLayer/obj/Debug/net6.0/refint/3BusinessLogicLayer.dll
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/3BusinessLogicLayer/obj/Debug/net6.0/3BusinessLogicLayer.pdb
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/3BusinessLogicLayer/obj/Debug/net6.0/ref/3BusinessLogicLayer.dll
+<<<<<<< HEAD
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.deps.json
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.dll
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.pdb
@@ -49,3 +50,22 @@ C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\D
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\refint\3BusinessLogicLayer.dll
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.pdb
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\ref\3BusinessLogicLayer.dll
+=======
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.deps.json
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\3BusinessLogicLayer.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\bin\Debug\net6.0\2DataAccessLayer.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.csproj.CopyComplete
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\refint\3BusinessLogicLayer.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\3BusinessLogicLayer.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\3BusinessLogicLayer\obj\Debug\net6.0\ref\3BusinessLogicLayer.dll
+>>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8

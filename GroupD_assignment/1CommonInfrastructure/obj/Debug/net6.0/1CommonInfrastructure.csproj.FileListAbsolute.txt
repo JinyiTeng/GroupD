@@ -22,6 +22,7 @@ C:/Users/Linh/OneDrive/Documents/GitHub/PRT585_GroupD/GroupD_assignment/1CommonI
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/obj/Debug/net6.0/refint/1CommonInfrastructure.dll
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/obj/Debug/net6.0/1CommonInfrastructure.pdb
 /Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/1CommonInfrastructure/obj/Debug/net6.0/ref/1CommonInfrastructure.dll
+<<<<<<< HEAD
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.deps.json
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.dll
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.pdb
@@ -34,3 +35,17 @@ C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\refint\1CommonInfrastructure.dll
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.pdb
 C:\Users\csrab\Desktop\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\ref\1CommonInfrastructure.dll
+=======
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.deps.json
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\bin\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.AssemblyReference.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfoInputs.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.AssemblyInfo.cs
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\refint\1CommonInfrastructure.dll
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\1CommonInfrastructure.pdb
+C:\Users\jinyi\OneDrive\Documents\GitHub\PRT585_GroupD\GroupD_assignment\1CommonInfrastructure\obj\Debug\net6.0\ref\1CommonInfrastructure.dll
+>>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
