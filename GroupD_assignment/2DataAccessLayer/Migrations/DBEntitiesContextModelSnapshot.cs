@@ -115,7 +115,7 @@ namespace _2DataAccessLayer.Migrations
                     b.ToTable("People");
                 });
 
-<<<<<<< HEAD
+
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -127,111 +127,170 @@ namespace _2DataAccessLayer.Migrations
                     b.Property<string>("ProductCategory")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-=======
+
+                    modelBuilder.Entity("_2DataAccessLayer.Context.Models.ProductLoss", b =>
+                        {
+                            b.Property<int>("ProductLossID")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductLossID"), 1L, 1);
+
+                            b.Property<int>("LossAmount")
+                                .HasColumnType("int");
+
+
+                            b.Property<string>("ProductName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+
+                            b.Property<string>("ProductQuantity")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.HasKey("ProductId");
+
+                            b.ToTable("Products");
+
+                            b.Property<string>("Reason")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.HasKey("ProductLossID");
+
+                            b.ToTable("ProductLoss");
+
+                        });
+
+                    modelBuilder.Entity("_2DataAccessLayer.Context.Models.Staff", b =>
+                        {
+                            b.Property<int>("StaffId")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StaffId"), 1L, 1);
+
+                            b.Property<string>("StaffName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.Property<string>("StaffPhone")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.Property<string>("StaffPosition")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.Property<string>("StaffShift")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.HasKey("StaffId");
+
+                            b.ToTable("Staff");
+                        });
+
+                    modelBuilder.Entity("_2DataAccessLayer.Context.Models.Stock", b =>
+                        {
+                            b.Property<int>("StockID")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StockID"), 1L, 1);
+
+                            b.Property<int>("OrderAmount")
+                                .HasColumnType("int");
+
+                            b.Property<string>("ProductName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.Property<decimal>("TotalOrderPrice")
+                                .HasColumnType("decimal(18,2)");
+
+                            b.HasKey("StockID");
+
+                            b.ToTable("Stock");
+                        });
+
+                    modelBuilder.Entity("_2DataAccessLayer.Context.Models.Student", b =>
+                        {
+                            b.Property<int>("StudentId")
+                                .ValueGeneratedOnAdd()
+                                .HasColumnType("int");
+
+                            SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"), 1L, 1);
+
+                            b.Property<string>("StudentName")
+                                .IsRequired()
+                                .HasColumnType("nvarchar(max)");
+
+                            b.HasKey("StudentId");
+
+                            b.ToTable("Students");
+                        });
+
+                });
+            
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.ProductLoss", b =>
-                {
-                    b.Property<int>("ProductLossID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+            {
+                b.Property<int>("ProductLossID")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductLossID"), 1L, 1);
+                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductLossID"), 1L, 1);
 
-                    b.Property<int>("LossAmount")
-                        .HasColumnType("int");
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
+                b.Property<int>("LossAmount")
+                    .HasColumnType("int");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
-<<<<<<< HEAD
-                    b.Property<string>("ProductQuantity")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                b.Property<string>("ProductName")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ProductId");
 
-                    b.ToTable("Products");
-=======
-                    b.Property<string>("Reason")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                b.Property<string>("ProductQuantity")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("ProductLossID");
+                b.HasKey("ProductId");
 
-                    b.ToTable("ProductLoss");
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
-                });
+                b.ToTable("Products");
 
-            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Staff", b =>
-                {
-                    b.Property<int>("StaffId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                b.Property<string>("Reason")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StaffId"), 1L, 1);
+                b.HasKey("ProductLossID");
 
-                    b.Property<string>("StaffName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                b.ToTable("ProductLoss");
 
-                    b.Property<string>("StaffPhone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StaffPosition")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("StaffShift")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("StaffId");
-
-                    b.ToTable("Staff");
-                });
+            });
 
             modelBuilder.Entity("_2DataAccessLayer.Context.Models.Stock", b =>
-                {
-                    b.Property<int>("StockID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+            {
+                b.Property<int>("StockID")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StockID"), 1L, 1);
+                SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StockID"), 1L, 1);
 
-                    b.Property<int>("OrderAmount")
-                        .HasColumnType("int");
+                b.Property<int>("OrderAmount")
+                    .HasColumnType("int");
 
-                    b.Property<string>("ProductName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                b.Property<string>("ProductName")
+                    .IsRequired()
+                    .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("TotalOrderPrice")
-                        .HasColumnType("decimal(18,2)");
+                b.Property<decimal>("TotalOrderPrice")
+                    .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("StockID");
+                b.HasKey("StockID");
 
-                    b.ToTable("Stock");
-                });
-
-            modelBuilder.Entity("_2DataAccessLayer.Context.Models.Student", b =>
-                {
-                    b.Property<int>("StudentId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("StudentId"), 1L, 1);
-
-                    b.Property<string>("StudentName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("StudentId");
-
-                    b.ToTable("Students");
-                });
-#pragma warning restore 612, 618
+                b.ToTable("Stock");
+            });
         }
     }
 }

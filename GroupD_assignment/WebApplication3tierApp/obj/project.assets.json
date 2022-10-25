@@ -2304,16 +2304,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\csrab\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\jinyi\\.nuget\\packages\\": {}
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\WebApplication3tierApp\\WebApplication3tierApp.csproj",
       "projectName": "WebApplication3tierApp",
       "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\WebApplication3tierApp\\WebApplication3tierApp.csproj",
@@ -2322,16 +2317,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\csrab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\WebApplication3tierApp\\WebApplication3tierApp.csproj",
-      "projectName": "WebApplication3tierApp",
-      "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\WebApplication3tierApp\\WebApplication3tierApp.csproj",
-      "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\WebApplication3tierApp\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2345,19 +2330,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
             },
             "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {
               "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj"
-=======
-            "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
-            },
-            "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {
-              "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj"
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
             }
           }
         }

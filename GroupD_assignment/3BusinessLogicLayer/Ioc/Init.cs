@@ -15,13 +15,13 @@ namespace _3BusinessLogicLayer.Ioc
             services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddScoped<IStaffService, StaffService>();
-<<<<<<< HEAD
+
             services.AddScoped<ICustomerService, CustomerService>();
             services.AddScoped<IProductService, ProductService>();
-=======
+
             services.AddScoped<IStockService, StockService>();
             services.AddScoped<IProductLossService, ProductLossService>();
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
+
             //services.AddScoped<ICategoryService, CategoryService>();
 
         }

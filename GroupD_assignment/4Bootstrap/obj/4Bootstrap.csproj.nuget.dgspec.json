@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csrab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj",
-        "projectName": "1CommonInfrastructure",
-        "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj",
-        "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +59,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -88,19 +70,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csrab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj",
-        "projectName": "2DataAccessLayer",
-        "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,13 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj": {
                 "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj"
-=======
-              "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj"
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
               }
             }
           }
@@ -172,7 +136,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -184,19 +147,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csrab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj",
-        "projectName": "3BusinessLogicLayer",
-        "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj",
-        "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -210,19 +160,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj": {
                 "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj"
               },
               "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
                 "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
-=======
-              "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj": {
-                "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\1CommonInfrastructure\\1CommonInfrastructure.csproj"
-              },
-              "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
               }
             }
           }
@@ -266,7 +208,6 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -278,19 +219,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csrab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj",
-        "projectName": "4Bootstrap",
-        "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\4Bootstrap.csproj",
-        "packagesPath": "C:\\Users\\jinyi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\4Bootstrap\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\jinyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -304,19 +232,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
                 "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
               },
               "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj": {
                 "projectPath": "C:\\Users\\csrab\\Desktop\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj"
-=======
-              "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\2DataAccessLayer\\2DataAccessLayer.csproj"
-              },
-              "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\jinyi\\OneDrive\\Documents\\GitHub\\PRT585_GroupD\\GroupD_assignment\\3BusinessLogicLayer\\3BusinessLogicLayer.csproj"
->>>>>>> f1def32854d0f4774c418cb1f2eb0f17d2181dd8
               }
             }
           }
