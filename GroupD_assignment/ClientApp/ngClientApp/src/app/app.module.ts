@@ -9,6 +9,7 @@ import { PersonComponent } from './person/person.component';
 import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
 import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
+import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './components/homepage/homepage.component';
 
@@ -19,6 +20,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     StaffsListComponent,
     AddStaffComponent,
     AddCustomerComponent,
+    CustomersListComponent,
     HomepageComponent
   ],
   imports: [

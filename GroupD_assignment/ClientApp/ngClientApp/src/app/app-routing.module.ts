@@ -4,6 +4,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
 import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
+import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
 import { PersonComponent } from './person/person.component';
 const routes: Routes = [
   { path: 'person', component: PersonComponent },
@@ -13,6 +14,10 @@ const routes: Routes = [
   {
     path: 'customers/add',
     component: AddCustomerComponent 
+  },
+  {
+    path: 'customers',
+    component: CustomersListComponent 
   },
 ];
 
