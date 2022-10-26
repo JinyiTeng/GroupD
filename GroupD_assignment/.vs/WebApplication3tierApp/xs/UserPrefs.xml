@@ -1,50 +1,30 @@
 ﻿<Properties StartupConfiguration="{5AD8C55E-683E-435E-A6D4-BF34AF67ED14}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WebApplication3tierApp PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication3tierApp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication3tierApp/appsettings.json">
     <Files>
-      <File FileName="1CommonInfrastructure/Models/StudentModel.cs" Line="14" Column="9" />
+      <File FileName="1CommonInfrastructure/Models/StudentModel.cs" Line="14" Column="1" />
       <File FileName="1CommonInfrastructure/Models/StaffModel.cs" Line="1" Column="1" />
-      <File FileName="2DataAccessLayer/Interfaces/IStudentDal (copy).cs" Line="22" Column="1" />
-      <File FileName="2DataAccessLayer/Services/StudentDal (copy).cs" Line="25" Column="10" />
       <File FileName="3BusinessLogicLayer/Interfaces/IStaffService.cs" Line="16" Column="44" />
-      <File FileName="3BusinessLogicLayer/Ioc/Init.cs" Line="21" Column="6" />
+      <File FileName="3BusinessLogicLayer/Ioc/Init.cs" Line="28" Column="6" />
       <File FileName="3BusinessLogicLayer/Services/StaffService.cs" Line="17" Column="38" />
       <File FileName="WebApplication3tierApp/Controllers/StudentController.cs" Line="1" Column="1" />
-      <File FileName="WebApplication3tierApp/Controllers/StudentController (copy).cs" Line="9" Column="32" />
       <File FileName="WebApplication3tierApp/Models/StaffDto.cs" Line="11" Column="47" />
       <File FileName="WebApplication3tierApp/Program.cs" Line="1" Column="1" />
+      <File FileName="WebApplication3tierApp/appsettings.json" Line="18" Column="1" />
+      <File FileName="WebApplication3tierApp/Controllers/StaffController.cs" Line="8" Column="2" />
+      <File FileName="2DataAccessLayer/Migrations/20221023082653_test.cs" Line="1" Column="1" />
+      <File FileName="2DataAccessLayer/Migrations/20221023082653_test.Designer.cs" Line="1" Column="1" />
+      <File FileName="WebApplication3tierApp/Models/EmployeeDto.cs" Line="1" Column="1" />
+      <File FileName="2DataAccessLayer/Migrations/DBEntitiesContextModelSnapshot.cs" Line="297" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/6.0.400/Current/Microsoft.Common.props" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebApplication3tierApp" expanded="True" selected="True">
-            <Node name="NuGet.Config files" expanded="True" />
-            <Node name="1CommonInfrastructure" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="2DataAccessLayer" expanded="True">
-              <Node name="Context" expanded="True">
-                <Node name="Models" expanded="True" />
-              </Node>
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Ioc" expanded="True" />
-              <Node name="Maps" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="3BusinessLogicLayer" expanded="True">
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Ioc" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="WebApplication3tierApp" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
+          <Node name="WebApplication3tierApp" expanded="True">
+            <Node name="WebApplication3tierApp" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -53,5 +33,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebApplication3tierApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/khaithan1105/AndroidStudioProjects/PRT585_GroupD/GroupD_assignment/WebApplication3tierApp/appsettings.json" relfile="WebApplication3tierApp/appsettings.json" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

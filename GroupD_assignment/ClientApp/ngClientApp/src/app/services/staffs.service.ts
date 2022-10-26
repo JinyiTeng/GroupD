@@ -20,4 +20,13 @@ export class StaffsService {
   addStaff(addStaffRequest: Staff): Observable<Staff> {
     return this.http.post<Staff>(this.baseApiUrl + '/api/Staff',addStaffRequest);
   }
+
+  getStaff(staffId: string): Observable<Staff> {
+    return this.http.get<Staff>(this.baseApiUrl + '/api/Staff/' + staffId)
+  }
+
+  updateStaff(staffId: number, updateStaffRequest: Staff): Observable<Staff> {
+    return this.http.put<Staff>(this.baseApiUrl + '/api/Staff/' + staffId, updateStaffRequest);
+
+  }
 }

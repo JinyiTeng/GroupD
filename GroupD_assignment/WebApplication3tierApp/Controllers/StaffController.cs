@@ -42,7 +42,7 @@ namespace WebApplication3tierApp.Controllers
             return await _StaffService.CreateStaff(StaffModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{StaffId}")]
         public async Task<IActionResult> Update([FromBody] StaffDto requestDto)
         {
             await _StaffService.UpdateStaff(requestDto.ToStaffModel());

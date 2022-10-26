@@ -1,0 +1,67 @@
+<style>
+    .center {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      border: 3px solid burlywood;
+    }
+    .center1 {
+  text-align: center;
+    
+    }   
+    #staffId[disabled=disabled] {
+    color: #fff !important;
+}
+</style>
+<div class="container my-5">
+
+    <div class="row">
+        <h1 class="center1">Edit Staff</h1>
+        <div class="center">
+            
+            <form class="row g-3" #form="ngForm" (ngSubmit)="updateStaff()">
+                <div class="col-md-3">
+                    <label for="staffId" class="form-label">Staff Id</label>
+                    <input type="text" class="form-control" id="staffId" readonly disabled="disabled"
+                    name="staffId" [(ngModel)] = "staffDetails.staffId">
+                  
+                </div>
+                <div class="mb-3">
+                    <label for="staffName" class="form-label">Staff Name</label>
+                    <input type="text" class="form-control" id="staffName" placeholder="John Doe" 
+                    name="staffName" [(ngModel)] = "staffDetails.staffName">
+                  
+                </div>
+                <div class="mb-3">
+                    <label for="staffPhone" class="form-label">Staff Phone</label>
+                    <input type="text" class="form-control" id="staffPhone" placeholder="12345678"
+                    name="staffPhone" [(ngModel)] = "staffDetails.staffPhone">
+                </div>
+                <div class="col-md-6">
+                    <label for="staffPosition" class="form-label">Staff Position</label>
+                    <input type="text" class="form-control" id="staffPosition" placeholder="Sale"
+                    name="staffName" [(ngModel)] = "staffDetails.staffPosition">
+                </div>
+                <div class="col-md-6">
+                <label for="staffShift" class="form-label">Shift</label>
+                <select id="staffShift" class="form-select"
+                name="staffShift" [(ngModel)] = "staffDetails.staffShift">
+                    <option selected>Choose...</option>
+                    <option>Morning</option>
+                    <option>Noon</option>
+                    <option>Night</option>
+                </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success" style="float:right">Submit</button>
+                    <button type="button" class="btn btn-outline-secondary" style="float:left" onclick="history.back()">Cancel</button>
+                </div>
+                
+              </form>
+        
+        </div>
+    </div>
+   
+
+</div>
+

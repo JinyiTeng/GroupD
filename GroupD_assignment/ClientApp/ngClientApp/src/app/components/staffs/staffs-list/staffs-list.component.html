@@ -15,6 +15,7 @@
                 <th>Phone</th>
                 <th>Position</th>
                 <th>Shift</th>
+                <th></th>
             </tr>
 
         </thead>
@@ -25,6 +26,7 @@
                 <td>{{staff.staffPhone}}</td>
                 <td>{{staff.staffPosition}}</td>
                 <td>{{staff.staffShift}}</td>
+                <td><a [routerLink]="['/staffs','edit',staff.staffId]">View</a></td>
             </tr>
 
         </tbody>

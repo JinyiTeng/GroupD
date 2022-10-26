@@ -12,6 +12,7 @@ import { AddCustomerComponent } from './components/customers/add-customer/add-cu
 import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { EditStaffComponent } from './components/staffs/edit-staff/edit-staff.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     AddStaffComponent,
     AddCustomerComponent,
     CustomersListComponent,
-    HomepageComponent
+    HomepageComponent,
+    EditStaffComponent
   ],
   imports: [
     BrowserModule,

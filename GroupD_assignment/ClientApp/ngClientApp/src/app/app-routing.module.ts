@@ -6,6 +6,7 @@ import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list
 import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
 import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
 import { PersonComponent } from './person/person.component';
+import { EditStaffComponent } from './components/staffs/edit-staff/edit-staff.component';
 const routes: Routes = [
   { path: 'person', component: PersonComponent },
   { path: '', component: HomepageComponent},
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'customers',
     component: CustomersListComponent 
+  },
+  {
+    path: 'staffs/edit/:staffId',
+    component: EditStaffComponent 
   },
 ];
 
