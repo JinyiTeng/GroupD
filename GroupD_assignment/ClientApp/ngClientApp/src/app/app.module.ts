@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PersonComponent } from './person/person.component';
 import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list.component';
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
+import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './components/homepage/homepage.component';
 
@@ -17,6 +18,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     PersonComponent,
     StaffsListComponent,
     AddStaffComponent,
+    AddCustomerComponent,
     HomepageComponent
   ],
   imports: [
