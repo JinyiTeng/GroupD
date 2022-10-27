@@ -42,7 +42,7 @@ namespace WebApplication3tierApp.Controllers
             return await _ProductLossService.CreateProductLoss(ProductLossModel);
         }
 
-        [HttpPut, Route("update")]
+        [HttpPut, Route("{ProductLossId}")]
         public async Task<IActionResult> Update([FromBody] ProductLossDto requestDto)
         {
             await _ProductLossService.UpdateProductLoss(requestDto.ToProductLossModel());

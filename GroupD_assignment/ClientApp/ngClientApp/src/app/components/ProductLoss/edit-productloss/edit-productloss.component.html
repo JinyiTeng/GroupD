@@ -1,0 +1,25 @@
+<div class="container my-5">
+    <h1 class="mb-3">Edit ProductLoss</h1>
+    <form #form="ngForm" (ngSubmit)="updateProductLoss()">
+        <div>
+          <label>Id:</label>
+          {{productLossDetails.productLossID}}
+        </div>
+        <div class="mb-3">
+          <label for="productName" class="form-label">Product Name</label>
+          <input [(ngModel)] = "productLossDetails.productName" name="productName" type="text" class="form-control" id="productName" placeholder="iPhone">
+        </div>
+        <div class="mb-3">
+          <label for="reason" class="form-label">Reason</label>
+          <input [(ngModel)]= "productLossDetails.reason" type="text" name="reason" class="form-control" id="reason">
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="lossAmount">Loss Amount</label>
+          <input [(ngModel)]= "productLossDetails.lossAmount" type="number" name="lossAmount" class="form-control" id="lossAmount">
+        </div>
+        <button type="submit" class="btn btn-primary">Edit</button>
+        
+      </form>
+
+
+</div>

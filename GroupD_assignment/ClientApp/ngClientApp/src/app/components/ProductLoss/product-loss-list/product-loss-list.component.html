@@ -1,0 +1,28 @@
+<div class="container my-5">
+    <h1 class="mb-3">ProductLosses
+        <button type="button" class="btn btn-primary" style="float:right" routerLink="add">Add Product Loss</button>
+    </h1>
+
+    <table class ="table" *ngIf="productLosss && productLosss.length >0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Product Name</th>
+                <th>Reason</th>
+                <th>Loss Amount</th>
+                <th>Edit/Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let productLoss of productLosss">
+                <td>{{productLoss.productLossID}}</td>
+                <td>{{productLoss.productName}}</td>
+                <td>{{productLoss.reason}}</td>
+                <td>{{productLoss.lossAmount}}</td>
+                <td><a [routerLink]="['/productLosss','edit', productLoss.productLossID]">Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <p *ngIf="!productLosss || productLosss.length <= 0">No productLoss found!</p>
+</div>
+

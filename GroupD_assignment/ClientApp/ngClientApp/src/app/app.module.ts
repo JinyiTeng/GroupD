@@ -13,6 +13,12 @@ import { CustomersListComponent } from './components/customers/customers-list/cu
 import { FormsModule } from '@angular/forms';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { EditStaffComponent } from './components/staffs/edit-staff/edit-staff.component';
+import { AddProductLossComponent } from './components/ProductLoss/add-product-loss/add-product-loss.component';
+import { AddStockComponent } from './components/Stock/add-stock/add-stock.component';
+import { EditProductLossComponent } from './components/ProductLoss/edit-productloss/edit-productloss.component';
+import { EditStockComponent } from './components/Stock/edit-stock/edit-stock.component';
+import { ProductLossListComponent } from './components/ProductLoss/product-loss-list/product-loss-list.component';
+import { StockListComponent } from './components/Stock/stock-list/stock-list.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import { EditStaffComponent } from './components/staffs/edit-staff/edit-staff.co
     AddCustomerComponent,
     CustomersListComponent,
     HomepageComponent,
-    EditStaffComponent
+    EditStaffComponent,
+    StockListComponent,
+    AddStockComponent,
+    ProductLossListComponent,
+    AddProductLossComponent,
+    EditStockComponent,
+    EditProductLossComponent
   ],
   imports: [
     BrowserModule,
