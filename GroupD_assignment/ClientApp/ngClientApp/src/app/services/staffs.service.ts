@@ -29,4 +29,9 @@ export class StaffsService {
     return this.http.put<Staff>(this.baseApiUrl + '/api/Staff/' + staffId, updateStaffRequest);
 
   }
+
+  deleteStaff(staffId: number): Observable<Staff> {
+   return this.http.delete<Staff>(this.baseApiUrl + '/api/Staff/' + staffId);
+  }
+
 }

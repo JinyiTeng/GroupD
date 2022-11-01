@@ -49,4 +49,13 @@ export class EditStaffComponent implements OnInit {
 
 
   }
+
+  deleteStaff(staffId: number) {
+    this.staffService.deleteStaff(staffId)
+    .subscribe({
+      next: (response) => {
+        this.router.navigate(['staffs']);
+      }
+    });
+  }
 }
