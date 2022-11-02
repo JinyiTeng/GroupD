@@ -10,7 +10,7 @@ import { StaffsListComponent } from './components/staffs/staffs-list/staffs-list
 import { AddStaffComponent } from './components/staffs/add-staff/add-staff.component';
 import { AddCustomerComponent } from './components/customers/add-customer/add-customer.component';
 import { CustomersListComponent } from './components/customers/customers-list/customers-list.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import { EditStaffComponent } from './components/staffs/edit-staff/edit-staff.component';
 import { AddProductLossComponent } from './components/ProductLoss/add-product-loss/add-product-loss.component';
@@ -42,7 +42,8 @@ import { StockListComponent } from './components/Stock/stock-list/stock-list.com
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

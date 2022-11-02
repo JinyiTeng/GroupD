@@ -1,20 +1,30 @@
 <div class="container my-5">
     <h1 class="mb-3">Add New ProductLoss</h1>
-    <form #form="ngForm" (ngSubmit)="addProductLoss()">
-        <div class="mb-3">
-          <label for="productName" class="form-label">Product Name</label>
-          <input [(ngModel)] = "addProductLossRequest.productName" name="productName" type="text" class="form-control" id="productName" placeholder="iPhone">
+    <form #form="ngForm" [formGroup]="detailsForm" (ngSubmit)="addProductLoss(detailsForm.value)">
+      <div class="mb-3">
+        <label for="productName" class="form-label">Product Name</label>
+        <input class="form-control" placeholder="iPhone" formControlName="productName" required>
+        <div *ngFor="let validation of validation_messages.productName">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['productName'].hasError(validation.type) && (detailsForm.controls['productName'].dirty || detailsForm.controls['productName'].touched)">{{validation.message}}</div>
         </div>
-        <div class="mb-3">
-          <label for="reason" class="form-label">Reason</label>
-          <input [(ngModel)]="addProductLossRequest.reason" type="text" name="reason" class="form-control" id="reason">
+      </div>
+
+      <div class="mb-3">
+        <label for="reason" class="form-label">Reason</label>
+        <input type="text" name="reason" class="form-control" formControlName="reason" id="reason">
+        <div *ngFor="let validation of validation_messages.reason">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['reason'].hasError(validation.type) && (detailsForm.controls['reason'].dirty || detailsForm.controls['reason'].touched)">{{validation.message}}</div>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="lossAmount">Loss Amount</label>
-          <input [(ngModel)]="addProductLossRequest.lossAmount" type="number" name="lossAmount" class="form-control" id="lossAmount">
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="lossAmount">Loss Amount</label>
+        <input formControlName="lossAmount" type="number" name="lossAmount" class="form-control" id="lossAmount">
+        <div *ngFor="let validation of validation_messages.lossAmount">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['lossAmount'].hasError(validation.type) && (detailsForm.controls['lossAmount'].dirty || detailsForm.controls['lossAmount'].touched)">{{validation.message}}</div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!detailsForm.valid">Submit</button>
+    </form>
 
 
 </div>

@@ -1,5 +1,7 @@
 <div class="container my-5">
-    <h1 class="mb-3">Stocks</h1>
+    <h1 class="mb-3">Stocks
+        <button type="button" class="btn btn-primary" style="float:right" routerLink="add">Add Stock</button>
+    </h1>
 
     <table class ="table" *ngIf="stocks && stocks.length >0">
         <thead>

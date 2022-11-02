@@ -29,5 +29,7 @@ export class ProductLossService {
 
   }
 
-  
+  delete(id: number){
+    return this.http.delete(this.baseApiUrl + '/api/ProductLoss/' + id);
+  }
 }

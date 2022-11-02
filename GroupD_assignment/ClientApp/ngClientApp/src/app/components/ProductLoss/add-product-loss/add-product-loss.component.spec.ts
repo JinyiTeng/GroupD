@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { FormGroup, ReactiveFormsModule, FormsModule, FormBuilder } from '@angular/forms';
 import { AddProductLossComponent } from './add-product-loss.component';
 
 describe('AddProductLossComponent', () => {
@@ -8,6 +8,10 @@ describe('AddProductLossComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [
+        FormsModule,
+        ReactiveFormsModule
+      ],
       declarations: [ AddProductLossComponent ]
     })
     .compileComponents();

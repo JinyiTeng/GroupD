@@ -1,20 +1,31 @@
 <div class="container my-5">
     <h1 class="mb-3">Add New Stock</h1>
-    <form #form="ngForm" (ngSubmit)="save()">
-        <div class="mb-3">
-          <label for="productName" class="form-label">Product Name</label>
-          <input [(ngModel)] = "addStockRequest.productName" name="productName" type="text" class="form-control" id="productName" placeholder="iPhone">
+    <form #form="ngForm" [formGroup]="detailsForm" (ngSubmit)="save(detailsForm.value)">
+      <div class="mb-3">
+        <label for="productName" class="form-label">Product Name</label>
+        <input class="form-control" placeholder="iPhone" formControlName="productName" required>
+        <div *ngFor="let validation of validation_messages.productName">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['productName'].hasError(validation.type) && (detailsForm.controls['productName'].dirty || detailsForm.controls['productName'].touched)">{{validation.message}}</div>
         </div>
-        <div class="mb-3">
-          <label for="orderAmount" class="form-label">Order Amount</label>
-          <input [(ngModel)]="addStockRequest.orderAmount" type="number" name="orderAmount" class="form-control" id="orderAmount">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label" for="orderAmount">Order Amount</label>
+        <input formControlName="orderAmount" type="number" name="orderAmount" class="form-control" id="orderAmount">
+        <div *ngFor="let validation of validation_messages.orderAmount">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['orderAmount'].hasError(validation.type) && (detailsForm.controls['orderAmount'].dirty || detailsForm.controls['orderAmount'].touched)">{{validation.message}}</div>
         </div>
-        <div class="mb-3">
-          <label class="form-label" for="totalOrderPrice">Total Order Price</label>
-          <input [(ngModel)]="addStockRequest.totalOrderPrice" type="number" name="totalOrderPrice" class="form-control" id="totalOrderPrice">
+      </div>
+
+      <div class="mb-3">
+        <label for="totalOrderPrice" class="form-label">Total Order Price</label>
+        <input type="text" name="totalOrderPrice" class="form-control" formControlName="totalOrderPrice" id="totalOrderPrice">
+        <div *ngFor="let validation of validation_messages.totalOrderPrice">
+          <div class="error-message" *ngIf="detailsForm && detailsForm.controls && detailsForm.controls['totalOrderPrice'].hasError(validation.type) && (detailsForm.controls['totalOrderPrice'].dirty || detailsForm.controls['totalOrderPrice'].touched)">{{validation.message}}</div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!detailsForm.valid">Submit</button>
+    </form>
 
 
 </div>
